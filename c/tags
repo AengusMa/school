@@ -1,0 +1,320 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+$0	a.s	/^	movl	$0, %eax$/;"	v
+$3	a.s	/^	movl	$3, -12(%rbp)$/;"	v
+FILE	a.i	/^typedef struct _IO_FILE FILE;$/;"	t	typeref:struct:_IO_FILE	file:
+FILE	tags	/^FILE	a.i	\/^typedef struct _IO_FILE FILE;$\/;"	t	typeref:struct:_IO_FILE	file:$/;"	t	typeref:struct:_IO_FILE	file:
+_G_fpos64_t	a.i	/^} _G_fpos64_t;$/;"	t	typeref:struct:__anon5	file:
+_G_fpos_t	a.i	/^} _G_fpos_t;$/;"	t	typeref:struct:__anon4	file:
+_IO_FILE	a.i	/^struct _IO_FILE {$/;"	s	file:
+_IO_FILE	a.i	/^typedef struct _IO_FILE _IO_FILE;$/;"	t	typeref:struct:_IO_FILE	file:
+_IO_FILE::_IO_backup_base	a.i	/^  char *_IO_backup_base;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::_IO_buf_base	a.i	/^  char* _IO_buf_base;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::_IO_buf_end	a.i	/^  char* _IO_buf_end;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::_IO_read_base	a.i	/^  char* _IO_read_base;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::_IO_read_end	a.i	/^  char* _IO_read_end;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::_IO_read_ptr	a.i	/^  char* _IO_read_ptr;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::_IO_save_base	a.i	/^  char *_IO_save_base;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::_IO_save_end	a.i	/^  char *_IO_save_end;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::_IO_write_base	a.i	/^  char* _IO_write_base;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::_IO_write_end	a.i	/^  char* _IO_write_end;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::_IO_write_ptr	a.i	/^  char* _IO_write_ptr;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::__pad1	a.i	/^  void *__pad1;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::__pad2	a.i	/^  void *__pad2;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::__pad3	a.i	/^  void *__pad3;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::__pad4	a.i	/^  void *__pad4;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::__pad5	a.i	/^  size_t __pad5;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::_chain	a.i	/^  struct _IO_FILE *_chain;$/;"	m	struct:_IO_FILE	typeref:struct:_IO_FILE::_IO_FILE	file:	access:public
+_IO_FILE::_cur_column	a.i	/^  unsigned short _cur_column;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::_fileno	a.i	/^  int _fileno;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::_flags	a.i	/^  int _flags;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::_flags2	a.i	/^  int _flags2;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::_lock	a.i	/^  _IO_lock_t *_lock;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::_markers	a.i	/^  struct _IO_marker *_markers;$/;"	m	struct:_IO_FILE	typeref:struct:_IO_FILE::_IO_marker	file:	access:public
+_IO_FILE::_mode	a.i	/^  int _mode;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::_offset	a.i	/^  __off64_t _offset;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::_old_offset	a.i	/^  __off_t _old_offset;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::_shortbuf	a.i	/^  char _shortbuf[1];$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::_unused2	a.i	/^  char _unused2[15 * sizeof (int) - 4 * sizeof (void *) - sizeof (size_t)];$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_FILE::_vtable_offset	a.i	/^  signed char _vtable_offset;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_backup_base	a.i	/^  char *_IO_backup_base;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_buf_base	a.i	/^  char* _IO_buf_base;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_buf_end	a.i	/^  char* _IO_buf_end;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_feof	a.i	/^extern int _IO_feof (_IO_FILE *__fp) __attribute__ ((__nothrow__ , __leaf__));$/;"	p	file:	signature:(_IO_FILE *__fp)
+_IO_ferror	a.i	/^extern int _IO_ferror (_IO_FILE *__fp) __attribute__ ((__nothrow__ , __leaf__));$/;"	p	file:	signature:(_IO_FILE *__fp)
+_IO_flockfile	a.i	/^extern void _IO_flockfile (_IO_FILE *) __attribute__ ((__nothrow__ , __leaf__));$/;"	p	file:	signature:(_IO_FILE *)
+_IO_free_backup_area	a.i	/^extern void _IO_free_backup_area (_IO_FILE *) __attribute__ ((__nothrow__ , __leaf__));$/;"	p	file:	signature:(_IO_FILE *)
+_IO_ftrylockfile	a.i	/^extern int _IO_ftrylockfile (_IO_FILE *) __attribute__ ((__nothrow__ , __leaf__));$/;"	p	file:	signature:(_IO_FILE *)
+_IO_funlockfile	a.i	/^extern void _IO_funlockfile (_IO_FILE *) __attribute__ ((__nothrow__ , __leaf__));$/;"	p	file:	signature:(_IO_FILE *)
+_IO_getc	a.i	/^extern int _IO_getc (_IO_FILE *__fp);$/;"	p	file:	signature:(_IO_FILE *__fp)
+_IO_lock_t	a.i	/^typedef void _IO_lock_t;$/;"	t	file:
+_IO_marker	a.i	/^struct _IO_marker {$/;"	s	file:
+_IO_marker::_next	a.i	/^  struct _IO_marker *_next;$/;"	m	struct:_IO_marker	typeref:struct:_IO_marker::_IO_marker	file:	access:public
+_IO_marker::_pos	a.i	/^  int _pos;$/;"	m	struct:_IO_marker	file:	access:public
+_IO_marker::_sbuf	a.i	/^  struct _IO_FILE *_sbuf;$/;"	m	struct:_IO_marker	typeref:struct:_IO_marker::_IO_FILE	file:	access:public
+_IO_padn	a.i	/^extern __ssize_t _IO_padn (_IO_FILE *, int, __ssize_t);$/;"	p	file:	signature:(_IO_FILE *, int, __ssize_t)
+_IO_peekc_locked	a.i	/^extern int _IO_peekc_locked (_IO_FILE *__fp);$/;"	p	file:	signature:(_IO_FILE *__fp)
+_IO_putc	a.i	/^extern int _IO_putc (int __c, _IO_FILE *__fp);$/;"	p	file:	signature:(int __c, _IO_FILE *__fp)
+_IO_read_base	a.i	/^  char* _IO_read_base;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_read_end	a.i	/^  char* _IO_read_end;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_read_ptr	a.i	/^  char* _IO_read_ptr;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_save_base	a.i	/^  char *_IO_save_base;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_save_end	a.i	/^  char *_IO_save_end;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_seekoff	a.i	/^extern __off64_t _IO_seekoff (_IO_FILE *, __off64_t, int, int);$/;"	p	file:	signature:(_IO_FILE *, __off64_t, int, int)
+_IO_seekpos	a.i	/^extern __off64_t _IO_seekpos (_IO_FILE *, __off64_t, int);$/;"	p	file:	signature:(_IO_FILE *, __off64_t, int)
+_IO_sgetn	a.i	/^extern size_t _IO_sgetn (_IO_FILE *, void *, size_t);$/;"	p	file:	signature:(_IO_FILE *, void *, size_t)
+_IO_vfprintf	a.i	/^extern int _IO_vfprintf (_IO_FILE *__restrict, const char *__restrict,$/;"	p	file:	signature:(_IO_FILE *__restrict, const char *__restrict, __gnuc_va_list)
+_IO_vfscanf	a.i	/^extern int _IO_vfscanf (_IO_FILE * __restrict, const char * __restrict,$/;"	p	file:	signature:(_IO_FILE * __restrict, const char * __restrict, __gnuc_va_list, int *__restrict)
+_IO_write_base	a.i	/^  char* _IO_write_base;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_write_end	a.i	/^  char* _IO_write_end;$/;"	m	struct:_IO_FILE	file:	access:public
+_IO_write_ptr	a.i	/^  char* _IO_write_ptr;$/;"	m	struct:_IO_FILE	file:	access:public
+__FILE	a.i	/^typedef struct _IO_FILE __FILE;$/;"	t	typeref:struct:_IO_FILE	file:
+__anon1::__val	a.i	/^typedef struct { int __val[2]; } __fsid_t;$/;"	m	struct:__anon1	file:	access:public
+__anon2::__anon3::__wch	a.i	/^    unsigned int __wch;$/;"	m	union:__anon2::__anon3	file:	access:public
+__anon2::__anon3::__wchb	a.i	/^    char __wchb[4];$/;"	m	union:__anon2::__anon3	file:	access:public
+__anon2::__count	a.i	/^  int __count;$/;"	m	struct:__anon2	file:	access:public
+__anon2::__value	a.i	/^  } __value;$/;"	m	struct:__anon2	typeref:union:__anon2::__anon3	file:	access:public
+__anon4::__pos	a.i	/^  __off_t __pos;$/;"	m	struct:__anon4	file:	access:public
+__anon4::__state	a.i	/^  __mbstate_t __state;$/;"	m	struct:__anon4	file:	access:public
+__anon5::__pos	a.i	/^  __off64_t __pos;$/;"	m	struct:__anon5	file:	access:public
+__anon5::__state	a.i	/^  __mbstate_t __state;$/;"	m	struct:__anon5	file:	access:public
+__anon6::__val	tags	/^__val	a.i	\/^typedef struct { int __val[2]; } __fsid_t;$\/;"	m	struct:__anon1	file:	access:public$/;"	m	struct:__anon6	file:	access:public
+__anon7::__val	tags	/^__fsid_t	a.i	\/^typedef struct { int __val[2]; } __fsid_t;$\/;"	t	typeref:struct:__anon1	file:$/;"	m	struct:__anon7	file:	access:public
+__blkcnt64_t	a.i	/^typedef long int __blkcnt64_t;$/;"	t	file:
+__blkcnt64_t	tags	/^__blkcnt64_t	a.i	\/^typedef long int __blkcnt64_t;$\/;"	t	file:$/;"	t	file:
+__blkcnt_t	a.i	/^typedef long int __blkcnt_t;$/;"	t	file:
+__blksize_t	a.i	/^typedef long int __blksize_t;$/;"	t	file:
+__blksize_t	tags	/^__blksize_t	a.i	\/^typedef long int __blksize_t;$\/;"	t	file:$/;"	t	file:
+__caddr_t	a.i	/^typedef char *__caddr_t;$/;"	t	file:
+__clock_t	a.i	/^typedef long int __clock_t;$/;"	t	file:
+__clockid_t	a.i	/^typedef int __clockid_t;$/;"	t	file:
+__clockid_t	tags	/^__clockid_t	a.i	\/^typedef int __clockid_t;$\/;"	t	file:$/;"	t	file:
+__codecvt_error	a.i	/^  __codecvt_error,$/;"	e	enum:__codecvt_result	file:
+__codecvt_noconv	a.i	/^  __codecvt_noconv$/;"	e	enum:__codecvt_result	file:
+__codecvt_ok	a.i	/^  __codecvt_ok,$/;"	e	enum:__codecvt_result	file:
+__codecvt_partial	a.i	/^  __codecvt_partial,$/;"	e	enum:__codecvt_result	file:
+__codecvt_result	a.i	/^enum __codecvt_result$/;"	g	file:
+__count	a.i	/^  int __count;$/;"	m	struct:__anon2	file:	access:public
+__daddr_t	a.i	/^typedef int __daddr_t;$/;"	t	file:
+__daddr_t	tags	/^__daddr_t	a.i	\/^typedef int __daddr_t;$\/;"	t	file:$/;"	t	file:
+__dev_t	a.i	/^typedef unsigned long int __dev_t;$/;"	t	file:
+__dev_t	tags	/^__dev_t	a.i	\/^typedef unsigned long int __dev_t;$\/;"	t	file:$/;"	t	file:
+__fsblkcnt64_t	a.i	/^typedef unsigned long int __fsblkcnt64_t;$/;"	t	file:
+__fsblkcnt64_t	tags	/^__fsblkcnt64_t	a.i	\/^typedef unsigned long int __fsblkcnt64_t;$\/;"	t	file:$/;"	t	file:
+__fsblkcnt_t	a.i	/^typedef unsigned long int __fsblkcnt_t;$/;"	t	file:
+__fsfilcnt64_t	a.i	/^typedef unsigned long int __fsfilcnt64_t;$/;"	t	file:
+__fsfilcnt64_t	tags	/^__fsfilcnt64_t	a.i	\/^typedef unsigned long int __fsfilcnt64_t;$\/;"	t	file:$/;"	t	file:
+__fsfilcnt_t	a.i	/^typedef unsigned long int __fsfilcnt_t;$/;"	t	file:
+__fsid_t	a.i	/^typedef struct { int __val[2]; } __fsid_t;$/;"	t	typeref:struct:__anon1	file:
+__fsid_t	tags	/^__fsid_t	a.i	\/^typedef struct { int __val[2]; } __fsid_t;$\/;"	t	typeref:struct:__anon1	file:$/;"	v	typeref:struct:__anon7
+__fsid_t	tags	/^__val	a.i	\/^typedef struct { int __val[2]; } __fsid_t;$\/;"	m	struct:__anon1	file:	access:public$/;"	t	typeref:struct:__anon6	file:
+__fsword_t	a.i	/^typedef long int __fsword_t;$/;"	t	file:
+__getdelim	a.i	/^extern __ssize_t __getdelim (char **__restrict __lineptr,$/;"	p	file:	signature:(char **__restrict __lineptr, size_t *__restrict __n, int __delimiter, FILE *__restrict __stream)
+__gid_t	a.i	/^typedef unsigned int __gid_t;$/;"	t	file:
+__gid_t	tags	/^__gid_t	a.i	\/^typedef unsigned int __gid_t;$\/;"	t	file:$/;"	t	file:
+__gnuc_va_list	a.i	/^typedef __builtin_va_list __gnuc_va_list;$/;"	t	file:
+__id_t	a.i	/^typedef unsigned int __id_t;$/;"	t	file:
+__id_t	tags	/^__id_t	a.i	\/^typedef unsigned int __id_t;$\/;"	t	file:$/;"	t	file:
+__ino64_t	a.i	/^typedef unsigned long int __ino64_t;$/;"	t	file:
+__ino64_t	tags	/^__ino64_t	a.i	\/^typedef unsigned long int __ino64_t;$\/;"	t	file:$/;"	t	file:
+__ino_t	a.i	/^typedef unsigned long int __ino_t;$/;"	t	file:
+__int16_t	a.i	/^typedef signed short int __int16_t;$/;"	t	file:
+__int16_t	tags	/^__int16_t	a.i	\/^typedef signed short int __int16_t;$\/;"	t	file:$/;"	t	file:
+__int32_t	a.i	/^typedef signed int __int32_t;$/;"	t	file:
+__int32_t	tags	/^__int32_t	a.i	\/^typedef signed int __int32_t;$\/;"	t	file:$/;"	t	file:
+__int64_t	a.i	/^typedef signed long int __int64_t;$/;"	t	file:
+__int64_t	tags	/^__int64_t	a.i	\/^typedef signed long int __int64_t;$\/;"	t	file:$/;"	t	file:
+__int8_t	a.i	/^typedef signed char __int8_t;$/;"	t	file:
+__int8_t	tags	/^__int8_t	a.i	\/^typedef signed char __int8_t;$\/;"	t	file:$/;"	t	file:
+__intptr_t	a.i	/^typedef long int __intptr_t;$/;"	t	file:
+__intptr_t	tags	/^__intptr_t	a.i	\/^typedef long int __intptr_t;$\/;"	t	file:$/;"	t	file:
+__io_close_fn	a.i	/^typedef int __io_close_fn (void *__cookie);$/;"	t	file:
+__io_read_fn	a.i	/^typedef __ssize_t __io_read_fn (void *__cookie, char *__buf, size_t __nbytes);$/;"	t	file:
+__io_seek_fn	a.i	/^typedef int __io_seek_fn (void *__cookie, __off64_t *__pos, int __w);$/;"	t	file:
+__io_write_fn	a.i	/^typedef __ssize_t __io_write_fn (void *__cookie, const char *__buf,$/;"	t	file:
+__key_t	a.i	/^typedef int __key_t;$/;"	t	file:
+__loff_t	a.i	/^typedef __off64_t __loff_t;$/;"	t	file:
+__mbstate_t	a.i	/^} __mbstate_t;$/;"	t	typeref:struct:__anon2	file:
+__mode_t	a.i	/^typedef unsigned int __mode_t;$/;"	t	file:
+__nlink_t	a.i	/^typedef unsigned long int __nlink_t;$/;"	t	file:
+__nlink_t	tags	/^__nlink_t	a.i	\/^typedef unsigned long int __nlink_t;$\/;"	t	file:$/;"	t	file:
+__off64_t	a.i	/^typedef long int __off64_t;$/;"	t	file:
+__off64_t	tags	/^__off64_t	a.i	\/^typedef long int __off64_t;$\/;"	t	file:$/;"	t	file:
+__off_t	a.i	/^typedef long int __off_t;$/;"	t	file:
+__overflow	a.i	/^extern int __overflow (_IO_FILE *, int);$/;"	p	file:	signature:(_IO_FILE *, int)
+__pad1	a.i	/^  void *__pad1;$/;"	m	struct:_IO_FILE	file:	access:public
+__pad2	a.i	/^  void *__pad2;$/;"	m	struct:_IO_FILE	file:	access:public
+__pad3	a.i	/^  void *__pad3;$/;"	m	struct:_IO_FILE	file:	access:public
+__pad4	a.i	/^  void *__pad4;$/;"	m	struct:_IO_FILE	file:	access:public
+__pad5	a.i	/^  size_t __pad5;$/;"	m	struct:_IO_FILE	file:	access:public
+__pid_t	a.i	/^typedef int __pid_t;$/;"	t	file:
+__pos	a.i	/^  __off64_t __pos;$/;"	m	struct:__anon5	file:	access:public
+__pos	a.i	/^  __off_t __pos;$/;"	m	struct:__anon4	file:	access:public
+__qaddr_t	a.i	/^typedef __quad_t *__qaddr_t;$/;"	t	file:
+__qaddr_t	tags	/^__qaddr_t	a.i	\/^typedef __quad_t *__qaddr_t;$\/;"	t	file:$/;"	t	file:
+__quad_t	a.i	/^typedef long int __quad_t;$/;"	t	file:
+__quad_t	tags	/^__quad_t	a.i	\/^typedef long int __quad_t;$\/;"	t	file:$/;"	t	file:
+__rlim64_t	a.i	/^typedef unsigned long int __rlim64_t;$/;"	t	file:
+__rlim_t	a.i	/^typedef unsigned long int __rlim_t;$/;"	t	file:
+__rlim_t	tags	/^__rlim_t	a.i	\/^typedef unsigned long int __rlim_t;$\/;"	t	file:$/;"	t	file:
+__socklen_t	a.i	/^typedef unsigned int __socklen_t;$/;"	t	file:
+__ssize_t	a.i	/^typedef long int __ssize_t;$/;"	t	file:
+__ssize_t	tags	/^__ssize_t	a.i	\/^typedef long int __ssize_t;$\/;"	t	file:$/;"	t	file:
+__state	a.i	/^  __mbstate_t __state;$/;"	m	struct:__anon4	file:	access:public
+__state	a.i	/^  __mbstate_t __state;$/;"	m	struct:__anon5	file:	access:public
+__suseconds_t	a.i	/^typedef long int __suseconds_t;$/;"	t	file:
+__syscall_slong_t	a.i	/^typedef long int __syscall_slong_t;$/;"	t	file:
+__syscall_ulong_t	a.i	/^typedef unsigned long int __syscall_ulong_t;$/;"	t	file:
+__syscall_ulong_t	tags	/^__syscall_ulong_t	a.i	\/^typedef unsigned long int __syscall_ulong_t;$\/;"	t	file:$/;"	t	file:
+__time_t	a.i	/^typedef long int __time_t;$/;"	t	file:
+__timer_t	a.i	/^typedef void * __timer_t;$/;"	t	file:
+__u_char	a.i	/^typedef unsigned char __u_char;$/;"	t	file:
+__u_char	tags	/^__u_char	a.i	\/^typedef unsigned char __u_char;$\/;"	t	file:$/;"	t	file:
+__u_int	a.i	/^typedef unsigned int __u_int;$/;"	t	file:
+__u_int	tags	/^__u_int	a.i	\/^typedef unsigned int __u_int;$\/;"	t	file:$/;"	t	file:
+__u_long	a.i	/^typedef unsigned long int __u_long;$/;"	t	file:
+__u_quad_t	a.i	/^typedef unsigned long int __u_quad_t;$/;"	t	file:
+__u_short	a.i	/^typedef unsigned short int __u_short;$/;"	t	file:
+__uflow	a.i	/^extern int __uflow (_IO_FILE *);$/;"	p	file:	signature:(_IO_FILE *)
+__uid_t	a.i	/^typedef unsigned int __uid_t;$/;"	t	file:
+__uint16_t	a.i	/^typedef unsigned short int __uint16_t;$/;"	t	file:
+__uint32_t	a.i	/^typedef unsigned int __uint32_t;$/;"	t	file:
+__uint64_t	a.i	/^typedef unsigned long int __uint64_t;$/;"	t	file:
+__uint8_t	a.i	/^typedef unsigned char __uint8_t;$/;"	t	file:
+__underflow	a.i	/^extern int __underflow (_IO_FILE *);$/;"	p	file:	signature:(_IO_FILE *)
+__useconds_t	a.i	/^typedef unsigned int __useconds_t;$/;"	t	file:
+__useconds_t	tags	/^__useconds_t	a.i	\/^typedef unsigned int __useconds_t;$\/;"	t	file:$/;"	t	file:
+__val	a.i	/^typedef struct { int __val[2]; } __fsid_t;$/;"	m	struct:__anon1	file:	access:public
+__val	tags	/^__fsid_t	a.i	\/^typedef struct { int __val[2]; } __fsid_t;$\/;"	t	typeref:struct:__anon1	file:$/;"	m	struct:__anon7	file:	access:public
+__val	tags	/^__val	a.i	\/^typedef struct { int __val[2]; } __fsid_t;$\/;"	m	struct:__anon1	file:	access:public$/;"	m	struct:__anon6	file:	access:public
+__value	a.i	/^  } __value;$/;"	m	struct:__anon2	typeref:union:__anon2::__anon3	file:	access:public
+__wch	a.i	/^    unsigned int __wch;$/;"	m	union:__anon2::__anon3	file:	access:public
+__wchb	a.i	/^    char __wchb[4];$/;"	m	union:__anon2::__anon3	file:	access:public
+_chain	a.i	/^  struct _IO_FILE *_chain;$/;"	m	struct:_IO_FILE	typeref:struct:_IO_FILE::_IO_FILE	file:	access:public
+_cur_column	a.i	/^  unsigned short _cur_column;$/;"	m	struct:_IO_FILE	file:	access:public
+_fileno	a.i	/^  int _fileno;$/;"	m	struct:_IO_FILE	file:	access:public
+_flags	a.i	/^  int _flags;$/;"	m	struct:_IO_FILE	file:	access:public
+_flags2	a.i	/^  int _flags2;$/;"	m	struct:_IO_FILE	file:	access:public
+_lock	a.i	/^  _IO_lock_t *_lock;$/;"	m	struct:_IO_FILE	file:	access:public
+_markers	a.i	/^  struct _IO_marker *_markers;$/;"	m	struct:_IO_FILE	typeref:struct:_IO_FILE::_IO_marker	file:	access:public
+_mode	a.i	/^  int _mode;$/;"	m	struct:_IO_FILE	file:	access:public
+_next	a.i	/^  struct _IO_marker *_next;$/;"	m	struct:_IO_marker	typeref:struct:_IO_marker::_IO_marker	file:	access:public
+_offset	a.i	/^  __off64_t _offset;$/;"	m	struct:_IO_FILE	file:	access:public
+_old_offset	a.i	/^  __off_t _old_offset;$/;"	m	struct:_IO_FILE	file:	access:public
+_pos	a.i	/^  int _pos;$/;"	m	struct:_IO_marker	file:	access:public
+_sbuf	a.i	/^  struct _IO_FILE *_sbuf;$/;"	m	struct:_IO_marker	typeref:struct:_IO_marker::_IO_FILE	file:	access:public
+_shortbuf	a.i	/^  char _shortbuf[1];$/;"	m	struct:_IO_FILE	file:	access:public
+_unused2	a.i	/^  char _unused2[15 * sizeof (int) - 4 * sizeof (void *) - sizeof (size_t)];$/;"	m	struct:_IO_FILE	file:	access:public
+_vtable_offset	a.i	/^  signed char _vtable_offset;$/;"	m	struct:_IO_FILE	file:	access:public
+clearerr	a.i	/^extern void clearerr (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__));$/;"	p	file:	signature:(FILE *__stream)
+clearerr_unlocked	a.i	/^extern void clearerr_unlocked (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__));$/;"	p	file:	signature:(FILE *__stream)
+completeopt	.vimrc	/^set completeopt=longest,menu$/;"	v
+ctermid	a.i	/^extern char *ctermid (char *__s) __attribute__ ((__nothrow__ , __leaf__));$/;"	p	file:	signature:(char *__s)
+dprintf	a.i	/^extern int dprintf (int __fd, const char *__restrict __fmt, ...)$/;"	p	file:	signature:(int __fd, const char *__restrict __fmt, ...)
+eax	a.s	/^	movl	%eax, %edi$/;"	v
+eax	a.s	/^	movl	%eax, %esi$/;"	v
+eax	a.s	/^	movl	%eax, -4(%rbp)$/;"	v
+edx	a.s	/^	movl	%edx, %esi$/;"	v
+encoding	.vimrc	/^"set encoding=utf-8$/;"	v
+fclose	a.i	/^extern int fclose (FILE *__stream);$/;"	p	file:	signature:(FILE *__stream)
+fdopen	a.i	/^extern FILE *fdopen (int __fd, const char *__modes) __attribute__ ((__nothrow__ , __leaf__)) ;$/;"	p	file:	signature:(int __fd, const char *__modes)
+fencs	.vimrc	/^"set fencs=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936$/;"	v
+feof	a.i	/^extern int feof (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;$/;"	p	file:	signature:(FILE *__stream)
+feof_unlocked	a.i	/^extern int feof_unlocked (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;$/;"	p	file:	signature:(FILE *__stream)
+ferror	a.i	/^extern int ferror (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;$/;"	p	file:	signature:(FILE *__stream)
+ferror_unlocked	a.i	/^extern int ferror_unlocked (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;$/;"	p	file:	signature:(FILE *__stream)
+fflush	a.i	/^extern int fflush (FILE *__stream);$/;"	p	file:	signature:(FILE *__stream)
+fflush_unlocked	a.i	/^extern int fflush_unlocked (FILE *__stream);$/;"	p	file:	signature:(FILE *__stream)
+fgetc	a.i	/^extern int fgetc (FILE *__stream);$/;"	p	file:	signature:(FILE *__stream)
+fgetc_unlocked	a.i	/^extern int fgetc_unlocked (FILE *__stream);$/;"	p	file:	signature:(FILE *__stream)
+fgetpos	a.i	/^extern int fgetpos (FILE *__restrict __stream, fpos_t *__restrict __pos);$/;"	p	file:	signature:(FILE *__restrict __stream, fpos_t *__restrict __pos)
+fgets	a.i	/^extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)$/;"	p	file:	signature:(char *__restrict __s, int __n, FILE *__restrict __stream)
+fileno	a.i	/^extern int fileno (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;$/;"	p	file:	signature:(FILE *__stream)
+fileno_unlocked	a.i	/^extern int fileno_unlocked (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;$/;"	p	file:	signature:(FILE *__stream)
+flockfile	a.i	/^extern void flockfile (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__));$/;"	p	file:	signature:(FILE *__stream)
+fmemopen	a.i	/^extern FILE *fmemopen (void *__s, size_t __len, const char *__modes)$/;"	p	file:	signature:(void *__s, size_t __len, const char *__modes)
+fopen	a.i	/^extern FILE *fopen (const char *__restrict __filename,$/;"	p	file:	signature:(const char *__restrict __filename, const char *__restrict __modes)
+format	tags	/^!_TAG_FILE_FORMAT	2	\/extended format; --format=1 will not append ;" to lines\/$/;"	v
+fpos_t	a.i	/^typedef _G_fpos_t fpos_t;$/;"	t	file:
+fprintf	a.i	/^extern int fprintf (FILE *__restrict __stream,$/;"	p	file:	signature:(FILE *__restrict __stream, const char *__restrict __format, ...)
+fputc	a.i	/^extern int fputc (int __c, FILE *__stream);$/;"	p	file:	signature:(int __c, FILE *__stream)
+fputc_unlocked	a.i	/^extern int fputc_unlocked (int __c, FILE *__stream);$/;"	p	file:	signature:(int __c, FILE *__stream)
+fputs	a.i	/^extern int fputs (const char *__restrict __s, FILE *__restrict __stream);$/;"	p	file:	signature:(const char *__restrict __s, FILE *__restrict __stream)
+fread	a.i	/^extern size_t fread (void *__restrict __ptr, size_t __size,$/;"	p	file:	signature:(void *__restrict __ptr, size_t __size, size_t __n, FILE *__restrict __stream)
+fread_unlocked	a.i	/^extern size_t fread_unlocked (void *__restrict __ptr, size_t __size,$/;"	p	file:	signature:(void *__restrict __ptr, size_t __size, size_t __n, FILE *__restrict __stream)
+freopen	a.i	/^extern FILE *freopen (const char *__restrict __filename,$/;"	p	file:	signature:(const char *__restrict __filename, const char *__restrict __modes, FILE *__restrict __stream)
+fscanf	a.i	/^extern int fscanf (FILE *__restrict __stream,$/;"	p	file:	signature:(FILE *__restrict __stream, const char *__restrict __format, ...)
+fseek	a.i	/^extern int fseek (FILE *__stream, long int __off, int __whence);$/;"	p	file:	signature:(FILE *__stream, long int __off, int __whence)
+fseeko	a.i	/^extern int fseeko (FILE *__stream, __off_t __off, int __whence);$/;"	p	file:	signature:(FILE *__stream, __off_t __off, int __whence)
+fsetpos	a.i	/^extern int fsetpos (FILE *__stream, const fpos_t *__pos);$/;"	p	file:	signature:(FILE *__stream, const fpos_t *__pos)
+ftell	a.i	/^extern long int ftell (FILE *__stream) ;$/;"	p	file:	signature:(FILE *__stream)
+ftello	a.i	/^extern __off_t ftello (FILE *__stream) ;$/;"	p	file:	signature:(FILE *__stream)
+ftrylockfile	a.i	/^extern int ftrylockfile (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;$/;"	p	file:	signature:(FILE *__stream)
+funlockfile	a.i	/^extern void funlockfile (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__));$/;"	p	file:	signature:(FILE *__stream)
+fwrite	a.i	/^extern size_t fwrite (const void *__restrict __ptr, size_t __size,$/;"	p	file:	signature:(const void *__restrict __ptr, size_t __size, size_t __n, FILE *__restrict __s)
+fwrite_unlocked	a.i	/^extern size_t fwrite_unlocked (const void *__restrict __ptr, size_t __size,$/;"	p	file:	signature:(const void *__restrict __ptr, size_t __size, size_t __n, FILE *__restrict __stream)
+gb18030	.vimrc	/^"set fencs=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936$/;"	v
+gb2312	.vimrc	/^"set fencs=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936$/;"	v
+gbk	.vimrc	/^"set fencs=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936$/;"	v
+getc	a.i	/^extern int getc (FILE *__stream);$/;"	p	file:	signature:(FILE *__stream)
+getc_unlocked	a.i	/^extern int getc_unlocked (FILE *__stream);$/;"	p	file:	signature:(FILE *__stream)
+getchar	a.i	/^extern int getchar (void);$/;"	p	file:	signature:(void)
+getchar_unlocked	a.i	/^extern int getchar_unlocked (void);$/;"	p	file:	signature:(void)
+getdelim	a.i	/^extern __ssize_t getdelim (char **__restrict __lineptr,$/;"	p	file:	signature:(char **__restrict __lineptr, size_t *__restrict __n, int __delimiter, FILE *__restrict __stream)
+getline	a.i	/^extern __ssize_t getline (char **__restrict __lineptr,$/;"	p	file:	signature:(char **__restrict __lineptr, size_t *__restrict __n, FILE *__restrict __stream)
+gets	a.i	/^extern char *gets (char *__s) __attribute__ ((__deprecated__));$/;"	p	file:	signature:(char *__s)
+getw	a.i	/^extern int getw (FILE *__stream);$/;"	p	file:	signature:(FILE *__stream)
+h	.vimrc	/^"set whichwrap+=<,>,h,l   " 允许backspace和光标键跨越行边界(不建议)  $/;"	v
+main	a.c	/^void main()$/;"	f	signature:()
+main	a.i	/^void main()$/;"	f	signature:()
+main	a.u	/^void main()$/;"	f	signature:()
+main	c.cpp	/^int main()$/;"	f	signature:()
+max	a.c	/^int max(int i,int j)$/;"	f	signature:(int i,int j)
+max	a.i	/^int max(int i,int j)$/;"	f	signature:(int i,int j)
+max	a.u	/^int max(int i,int j)$/;"	f	signature:(int i,int j)
+max	c.cpp	/^int max(int i, int j)$/;"	f	signature:(int i, int j)
+off_t	a.i	/^typedef __off_t off_t;$/;"	t	file:
+open_memstream	a.i	/^extern FILE *open_memstream (char **__bufloc, size_t *__sizeloc) __attribute__ ((__nothrow__ , __leaf__)) ;$/;"	p	file:	signature:(char **__bufloc, size_t *__sizeloc)
+pclose	a.i	/^extern int pclose (FILE *__stream);$/;"	p	file:	signature:(FILE *__stream)
+perror	a.i	/^extern void perror (const char *__s);$/;"	p	file:	signature:(const char *__s)
+popen	a.i	/^extern FILE *popen (const char *__command, const char *__modes) ;$/;"	p	file:	signature:(const char *__command, const char *__modes)
+printf	a.i	/^extern int printf (const char *__restrict __format, ...);$/;"	p	file:	signature:(const char *__restrict __format, ...)
+putc	a.i	/^extern int putc (int __c, FILE *__stream);$/;"	p	file:	signature:(int __c, FILE *__stream)
+putc_unlocked	a.i	/^extern int putc_unlocked (int __c, FILE *__stream);$/;"	p	file:	signature:(int __c, FILE *__stream)
+putchar	a.i	/^extern int putchar (int __c);$/;"	p	file:	signature:(int __c)
+putchar_unlocked	a.i	/^extern int putchar_unlocked (int __c);$/;"	p	file:	signature:(int __c)
+puts	a.i	/^extern int puts (const char *__s);$/;"	p	file:	signature:(const char *__s)
+putw	a.i	/^extern int putw (int __w, FILE *__stream);$/;"	p	file:	signature:(int __w, FILE *__stream)
+remove	a.i	/^extern int remove (const char *__filename) __attribute__ ((__nothrow__ , __leaf__));$/;"	p	file:	signature:(const char *__filename)
+rename	a.i	/^extern int rename (const char *__old, const char *__new) __attribute__ ((__nothrow__ , __leaf__));$/;"	p	file:	signature:(const char *__old, const char *__new)
+renameat	a.i	/^extern int renameat (int __oldfd, const char *__old, int __newfd,$/;"	p	file:	signature:(int __oldfd, const char *__old, int __newfd, const char *__new)
+rewind	a.i	/^extern void rewind (FILE *__stream);$/;"	p	file:	signature:(FILE *__stream)
+scanf	a.i	/^extern int scanf (const char *__restrict __format, ...) ;$/;"	p	file:	signature:(const char *__restrict __format, ...)
+scrolloff	.vimrc	/^"set scrolloff=3     " 光标移动到buffer的顶部和底部时保持3行距离  $/;"	v
+setbuf	a.i	/^extern void setbuf (FILE *__restrict __stream, char *__restrict __buf) __attribute__ ((__nothrow__ , __leaf__));$/;"	p	file:	signature:(FILE *__restrict __stream, char *__restrict __buf)
+setbuffer	a.i	/^extern void setbuffer (FILE *__restrict __stream, char *__restrict __buf,$/;"	p	file:	signature:(FILE *__restrict __stream, char *__restrict __buf, size_t __size)
+setlinebuf	a.i	/^extern void setlinebuf (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__));$/;"	p	file:	signature:(FILE *__stream)
+setvbuf	a.i	/^extern int setvbuf (FILE *__restrict __stream, char *__restrict __buf,$/;"	p	file:	signature:(FILE *__restrict __stream, char *__restrict __buf, int __modes, size_t __n)
+size_t	a.i	/^typedef long unsigned int size_t;$/;"	t	file:
+snprintf	a.i	/^extern int snprintf (char *__restrict __s, size_t __maxlen,$/;"	p	file:	signature:(char *__restrict __s, size_t __maxlen, const char *__restrict __format, ...)
+sprintf	a.i	/^extern int sprintf (char *__restrict __s,$/;"	p	file:	signature:(char *__restrict __s, const char *__restrict __format, ...)
+sscanf	a.i	/^extern int sscanf (const char *__restrict __s,$/;"	p	file:	signature:(const char *__restrict __s, const char *__restrict __format, ...)
+ssize_t	a.i	/^typedef __ssize_t ssize_t;$/;"	t	file:
+tempnam	a.i	/^extern char *tempnam (const char *__dir, const char *__pfx)$/;"	p	file:	signature:(const char *__dir, const char *__pfx)
+tmpfile	a.i	/^extern FILE *tmpfile (void) ;$/;"	p	file:	signature:(void)
+tmpnam	a.i	/^extern char *tmpnam (char *__s) __attribute__ ((__nothrow__ , __leaf__)) ;$/;"	p	file:	signature:(char *__s)
+tmpnam_r	a.i	/^extern char *tmpnam_r (char *__s) __attribute__ ((__nothrow__ , __leaf__)) ;$/;"	p	file:	signature:(char *__s)
+ungetc	a.i	/^extern int ungetc (int __c, FILE *__stream);$/;"	p	file:	signature:(int __c, FILE *__stream)
+va_list	a.i	/^typedef __gnuc_va_list va_list;$/;"	t	file:
+vdprintf	a.i	/^extern int vdprintf (int __fd, const char *__restrict __fmt,$/;"	p	file:	signature:(int __fd, const char *__restrict __fmt, __gnuc_va_list __arg)
+vfprintf	a.i	/^extern int vfprintf (FILE *__restrict __s, const char *__restrict __format,$/;"	p	file:	signature:(FILE *__restrict __s, const char *__restrict __format, __gnuc_va_list __arg)
+vfscanf	a.i	/^extern int vfscanf (FILE *__restrict __s, const char *__restrict __format,$/;"	p	file:	signature:(FILE *__restrict __s, const char *__restrict __format, __gnuc_va_list __arg)
+vprintf	a.i	/^extern int vprintf (const char *__restrict __format, __gnuc_va_list __arg);$/;"	p	file:	signature:(const char *__restrict __format, __gnuc_va_list __arg)
+vscanf	a.i	/^extern int vscanf (const char *__restrict __format, __gnuc_va_list __arg)$/;"	p	file:	signature:(const char *__restrict __format, __gnuc_va_list __arg)
+vsnprintf	a.i	/^extern int vsnprintf (char *__restrict __s, size_t __maxlen,$/;"	p	file:	signature:(char *__restrict __s, size_t __maxlen, const char *__restrict __format, __gnuc_va_list __arg)
+vsprintf	a.i	/^extern int vsprintf (char *__restrict __s, const char *__restrict __format,$/;"	p	file:	signature:(char *__restrict __s, const char *__restrict __format, __gnuc_va_list __arg)
+vsscanf	a.i	/^extern int vsscanf (const char *__restrict __s,$/;"	p	file:	signature:(const char *__restrict __s, const char *__restrict __format, __gnuc_va_list __arg)
