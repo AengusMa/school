@@ -1,0 +1,17 @@
+package test;
+
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.io.IOException;
+
+public class Demo {
+	public static void main(String[] args) throws AWTException, IOException {
+		Robot myRobot = new Robot();
+		//myRobot.mouseMove(22, 22);
+		Runtime.getRuntime().exec("gedit");  
+		
+		robot.delay(2000);
+		
+	}
+
+}
