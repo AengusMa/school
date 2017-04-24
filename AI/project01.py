@@ -2,7 +2,7 @@
 # @Author: AengusMa
 # @Date:   2017-04-24 19:42:48
 # @Last Modified by:   AengusMa
-# @Last Modified time: 2017-04-24 21:23:54
+# @Last Modified time: 2017-04-24 21:26:50
 
 
 import numpy as np
@@ -271,4 +271,4 @@ if __name__ == '__main__':
 		print ("启发4 移动步数："+str(len(path4))+"\t扩展节点个数："+str(steps4))
 	
 	else:
-		print ('wujie')
+		print ('无解')
