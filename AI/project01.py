@@ -2,7 +2,7 @@
 # @Author: AengusMa
 # @Date:   2017-04-24 19:42:48
 # @Last Modified by:   AengusMa
-# @Last Modified time: 2017-04-24 21:26:50
+# @Last Modified time: 2017-04-24 21:40:02
 
 
 import numpy as np
@@ -16,17 +16,20 @@ class State:
 		self.parent = parent
 		self.val1 = 0
 		self.val2 = 0
+	#得到可以移到的方向
 	def getDirection(self):
 		return self.direction
-	def getEmptyPos(self):
+	#得到0的位置
+	def getZeroPos(self):
 		postion = np.where(self.state == 0)
 		return postion
+	#移动
 	def generateSubStates(self):
 		if not self.direction:
 			return []
 		subStates = []
 		boarder = len(self.state) - 1         
-		row, col = self.getEmptyPos()
+		row, col = self.getZeroPos()
 		if 'left' in self.direction and col > 0:
 			s = self.state.copy()
 			tmp = s.copy()
@@ -65,6 +68,7 @@ class State:
 			news.val2 = news.cal2()
 			subStates.append(news)
 		return subStates
+	#估价函数一：不在位的数字的个数
 	def cal1(self):
 		n = 0
 		for i in range(3):
@@ -72,6 +76,7 @@ class State:
 				if(State.answer[i][j]!=self.state[i][j]):
 					n+=1
 		return n
+	#估价函数二：不在位的数字移动到正确位置需要的最小步数
 	def cal2(self):
 		n = 0
 		for i in range(3):
@@ -81,7 +86,7 @@ class State:
 					n += abs(k-i)+abs(l-j)
 
 		return n
-
+	#宽度优先搜索
 	def solve(self):
 		openTable = []                  
 		closeTable = []      
@@ -110,7 +115,7 @@ class State:
 					return path, steps
 			openTable.extend(subStates)
 		return path, steps
-
+	#使用估价函数1，遇到相同的时都添加进open表
 	def solve1(self):
 		openTable = []                  
 		closeTable = []      
@@ -144,6 +149,7 @@ class State:
 				if(min == s.val1):
 					openTable.append(s)
 		return path, steps
+	#使用估价函数1所有都添加进open表，然后排序
 	def solve2(self):
 		openTable = []                  
 		closeTable = []      
@@ -174,6 +180,7 @@ class State:
 			cmpfun = operator.attrgetter('val1')
 			openTable.sort(key = cmpfun)  
 		return path, steps
+	#使用估价函数2，遇到相同的时都添加进open表
 	def solve3(self):
 		openTable = []                  
 		closeTable = []      
@@ -207,6 +214,7 @@ class State:
 				if(min == s.val2):
 					openTable.append(s)
 		return path, steps
+	#使用估价函数2所有都添加进open表，然后排序
 	def solve4(self):
 		openTable = []                  
 		closeTable = []      
